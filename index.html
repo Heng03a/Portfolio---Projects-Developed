@@ -1,0 +1,304 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Boss Jialumen (Pan Jia Xing) — Web Application Developer portfolio: Angular, Node.js, .NET, Clean Architecture, DevOps, responsive UI." />
+  <title>Boss Jialumen | Portfolio</title>
+
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+
+<body>
+  <!-- Top Nav -->
+  <header class="site-header">
+    <div class="container nav">
+      <a class="brand" href="#top" aria-label="Go to top">
+        <span class="brand-dot" aria-hidden="true"></span>
+        <span class="brand-text">Boss Jialumen</span>
+      </a>
+
+      <nav class="nav-links" aria-label="Primary">
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#architecture">Architecture</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <div class="nav-actions">
+        <!-- Replace with your resume link later (PDF in repo or Google Drive) -->
+        <a class="btn btn-ghost" href="#contact">Resume</a>
+        <a class="btn btn-primary" href="#projects">View Work</a>
+      </div>
+    </div>
+  </header>
+
+  <main id="top">
+    <!-- Hero -->
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-left">
+          <p class="pill">Web Application Developer • Singapore</p>
+
+          <h1 class="hero-title">
+            Building <span class="accent">responsive</span>, <span class="accent">secure</span> web apps with
+            Clean Architecture and real-world payroll/HR domain experience.
+          </h1>
+
+          <p class="hero-subtitle">
+            I build end-to-end applications across Angular, Node.js/Express, and .NET, with strong focus on
+            UI/UX, separation of concerns, security (JWT/OAuth), and cloud deployment workflows.
+          </p>
+
+          <div class="hero-cta">
+            <a class="btn btn-primary" href="#projects">Explore Projects</a>
+            <a class="btn btn-ghost" href="#contact">Contact Me</a>
+          </div>
+
+          <div class="hero-meta">
+            <div class="meta-card">
+              <div class="meta-label">Focus</div>
+              <div class="meta-value">Clean Architecture • DevOps • API Design</div>
+            </div>
+            <div class="meta-card">
+              <div class="meta-label">Stack</div>
+              <div class="meta-value">Angular • Node.js • .NET • PostgreSQL</div>
+            </div>
+            <div class="meta-card">
+              <div class="meta-label">Strength</div>
+              <div class="meta-value">Responsive UI • Security • Integration</div>
+            </div>
+          </div>
+        </div>
+
+        <aside class="hero-right" aria-label="Highlights">
+          <div class="panel">
+            <h2 class="panel-title">Highlights</h2>
+            <ul class="checklist">
+              <li>Reusable Angular + Node template for rapid prototyping</li>
+              <li>CORS-ready distributed frontend/backend deployment pattern</li>
+              <li>.NET Clean Architecture layering (Domain/Application/Infra/Web)</li>
+              <li>Real-world HR/Payroll integrations mindset (security-first)</li>
+            </ul>
+
+            <div class="panel-links">
+              <!-- Replace placeholders with your real links -->
+              <a class="link-row" href="https://github.com/" target="_blank" rel="noreferrer">
+                <span>GitHub</span><span class="arrow">↗</span>
+              </a>
+              <a class="link-row" href="#projects">
+                <span>Live Demos</span><span class="arrow">→</span>
+              </a>
+              <a class="link-row" href="#architecture">
+                <span>Architecture Notes</span><span class="arrow">→</span>
+              </a>
+            </div>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects" class="section">
+      <div class="container">
+        <div class="section-head">
+          <h2>Projects</h2>
+          <p>Live demos + narrative pages that explain architecture, UI/UX, security and deployment decisions.</p>
+        </div>
+
+        <div class="grid cards">
+          <!-- Project Card 1 -->
+          <article class="card">
+            <div class="card-top">
+              <div class="tag">Angular • Node.js • MongoDB</div>
+              <h3>Angular Todo + Backend (JWT)</h3>
+              <p class="muted">
+                Full-stack Todo with login flow, CORS-aware architecture for cloud-hosted FE/BE, and reusable structure.
+              </p>
+            </div>
+            <div class="card-actions">
+              <!-- Replace these href with your real pages/links -->
+              <a class="btn btn-primary btn-sm" href="projects/angular-todo.html">Narrative</a>
+              <a class="btn btn-ghost btn-sm" href="https://github.com/" target="_blank" rel="noreferrer">Repo</a>
+              <a class="btn btn-ghost btn-sm" href="#" target="_blank" rel="noreferrer">Live</a>
+            </div>
+            <div class="card-foot">
+              <span class="foot-item">Key: JWT • CORS • Separation of Concerns</span>
+            </div>
+          </article>
+
+          <!-- Project Card 2 -->
+          <article class="card">
+            <div class="card-top">
+              <div class="tag">.NET • Clean Architecture • PostgreSQL</div>
+              <h3>BossTodoMvc (.NET 8/10)</h3>
+              <p class="muted">
+                Layered MVC app with Domain/Application/Infrastructure/Web, EF Core migrations, filtering & sorting.
+              </p>
+            </div>
+            <div class="card-actions">
+              <a class="btn btn-primary btn-sm" href="projects/bosstodomvc.html">Narrative</a>
+              <a class="btn btn-ghost btn-sm" href="https://github.com/" target="_blank" rel="noreferrer">Repo</a>
+              <a class="btn btn-ghost btn-sm" href="#" target="_blank" rel="noreferrer">Live</a>
+            </div>
+            <div class="card-foot">
+              <span class="foot-item">Key: Repository Pattern • EF Core • UX Parity</span>
+            </div>
+          </article>
+
+          <!-- Project Card 3 -->
+          <article class="card">
+            <div class="card-top">
+              <div class="tag">jQuery • HTML • CSS</div>
+              <h3>Responsive jQuery Todo (LocalStorage)</h3>
+              <p class="muted">
+                Mobile-first UI with polished interactions, persistent state, and recruiter-ready screenshots.
+              </p>
+            </div>
+            <div class="card-actions">
+              <a class="btn btn-primary btn-sm" href="projects/jquery-todo.html">Narrative</a>
+              <a class="btn btn-ghost btn-sm" href="https://github.com/" target="_blank" rel="noreferrer">Repo</a>
+              <a class="btn btn-ghost btn-sm" href="#" target="_blank" rel="noreferrer">Live</a>
+            </div>
+            <div class="card-foot">
+              <span class="foot-item">Key: Mobile-first • UI/UX • Cross-browser proof</span>
+            </div>
+          </article>
+
+          <!-- Project Card 4 -->
+          <article class="card">
+            <div class="card-top">
+              <div class="tag">Creative • Interactive Pages</div>
+              <h3>Little Scroll Studio (Narrative Pages)</h3>
+              <p class="muted">
+                Interactive storytelling pages demonstrating front-end craftsmanship, typography, and media handling.
+              </p>
+            </div>
+            <div class="card-actions">
+              <a class="btn btn-primary btn-sm" href="projects/little-scroll.html">Narrative</a>
+              <a class="btn btn-ghost btn-sm" href="https://github.com/" target="_blank" rel="noreferrer">Repo</a>
+              <a class="btn btn-ghost btn-sm" href="#" target="_blank" rel="noreferrer">Live</a>
+            </div>
+            <div class="card-foot">
+              <span class="foot-item">Key: UX storytelling • Components • Media polish</span>
+            </div>
+          </article>
+        </div>
+
+        <div class="note">
+          <strong>Tip:</strong> Keep all narrative pages under <code>/projects</code> so your URLs stay clean and organized.
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills" class="section section-alt">
+      <div class="container">
+        <div class="section-head">
+          <h2>Skills</h2>
+          <p>Focused on job-ready engineering: shipping, debugging, deployment, and maintainable architecture.</p>
+        </div>
+
+        <div class="grid cols-3">
+          <div class="mini-card">
+            <h3>Frontend</h3>
+            <ul class="bullets">
+              <li>Angular (routing, services, guards)</li>
+              <li>HTML/CSS (mobile-first, responsive)</li>
+              <li>JavaScript / jQuery</li>
+            </ul>
+          </div>
+
+          <div class="mini-card">
+            <h3>Backend</h3>
+            <ul class="bullets">
+              <li>Node.js / Express (REST APIs)</li>
+              <li>.NET MVC + EF Core</li>
+              <li>JWT / OAuth concepts</li>
+            </ul>
+          </div>
+
+          <div class="mini-card">
+            <h3>DevOps / Tooling</h3>
+            <ul class="bullets">
+              <li>Git / GitHub workflow</li>
+              <li>CI/CD mindset (Vercel/Railway)</li>
+              <li>Docker basics, cloud deployments</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Architecture -->
+    <section id="architecture" class="section">
+      <div class="container">
+        <div class="section-head">
+          <h2>Architecture Notes</h2>
+          <p>How I structure apps for maintainability, security, and fast iteration.</p>
+        </div>
+
+        <div class="grid cols-2">
+          <div class="mini-card">
+            <h3>Separation of Concerns</h3>
+            <p class="muted">
+              UI components stay thin; services handle orchestration; repositories isolate data access; configuration is
+              environment-driven for safe deployment.
+            </p>
+          </div>
+
+          <div class="mini-card">
+            <h3>Security & Integration Mindset</h3>
+            <p class="muted">
+              JWT-first auth patterns, CORS-aware FE/BE separation, and secure configuration practices suited for HR/Payroll domains.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="section section-alt">
+      <div class="container">
+        <div class="section-head">
+          <h2>Contact</h2>
+          <p>Replace the placeholders with your real links. Keep it simple and professional.</p>
+        </div>
+
+        <div class="contact-grid">
+          <div class="mini-card">
+            <h3>Links</h3>
+            <div class="contact-links">
+              <a class="link-row" href="https://github.com/" target="_blank" rel="noreferrer">
+                <span>GitHub</span><span class="arrow">↗</span>
+              </a>
+              <a class="link-row" href="https://www.linkedin.com/" target="_blank" rel="noreferrer">
+                <span>LinkedIn</span><span class="arrow">↗</span>
+              </a>
+              <a class="link-row" href="mailto:you@example.com">
+                <span>Email</span><span class="arrow">✉</span>
+              </a>
+            </div>
+          </div>
+
+          <div class="mini-card">
+            <h3>Quick Summary</h3>
+            <p class="muted">
+              Boss Jialumen (Pan Jia Xing) — Web Application Developer. I build responsive, secure web apps using Angular,
+              Node.js and .NET with a strong Clean Architecture and deployment mindset.
+            </p>
+          </div>
+        </div>
+
+        <footer class="footer">
+          <span>© <span id="year"></span> Boss Jialumen • Built with HTML/CSS • Hosted on GitHub Pages</span>
+        </footer>
+      </div>
+    </section>
+  </main>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
