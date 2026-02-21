@@ -1,0 +1,16 @@
+VVIP VKIV 20260222T04_26am
+Portfolio Narrative
+
+🔎 Portfolio-Level Narrative (Very Important)
+On your main GitHub profile README (if you create one), structure like this:
+Project
+Architecture Focus
+Angular
+Distributed Cloud + CORS
+BossTodoMvc
+Layered MVC + PostgreSQL
+jQuery
+Frontend State Management
+JavaFX
+Desktop UI + Property Binding
+That table alone shows architectural awareness.
