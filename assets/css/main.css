@@ -4,7 +4,6 @@
 .todo-wrapper {
   display: flex;
   justify-content: center;
-  padding: 10px 8px;
   background: #f3f4f6;
 }
 
@@ -13,7 +12,6 @@
   max-width: 900px;
   background: white;
   border-radius: 18px;
-  padding: 8px;
   box-shadow: 0 8px 24px rgba(0,0,0,0.1);
 }
 
@@ -23,6 +21,9 @@ body{
   display: flex;
 justify-content: center;
   align-items: center;
+    radial-gradient(1200px 700px at 10% 10%, rgba(124,92,255,0.28), transparent 55%),
+    radial-gradient(900px 600px at 90% 30%, rgba(0,212,255,0.18), transparent 55%),
+    radial-gradient(900px 700px at 50% 110%, rgba(124,92,255,0.14), transparent 60%),
 }
 
 .hero-subtitle-3{
