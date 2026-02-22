@@ -1,3 +1,24 @@
+/* =========================================
+   PAGE LAYOUT
+   ========================================= */
+.todo-wrapper {
+  display: flex;
+  justify-content: center;
+  padding: 40px 20px;
+  background: #f3f4f6;
+  min-height: 100vh;
+}
+
+.todo-card {
+  width: 100%;
+  max-width: 600px;
+  background: white;
+  border-radius: 18px;
+  padding: 28px;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.1);
+}
+
+
 :root{
   --bg: #0b1220;
   --panel: rgba(255,255,255,0.06);
