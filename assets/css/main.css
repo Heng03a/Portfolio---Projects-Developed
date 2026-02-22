@@ -2,16 +2,18 @@
    PAGE LAYOUT
    ========================================= */
 .todo-wrapper {
-  color:white;
   display: flex;
   justify-content: center;
   border-color: rgba(124,92,255,0.45);
+  color:white;
+  background:rgba(124,92,255,0.45);
 }
 
 .todo-card {
   width: 100%;
   max-width: 900px;
   color:white;
+  background:rgba(124,92,255,0.45);
   border-color: rgba(124,92,255,0.45);
   border-radius: 18px;
   box-shadow: 0 8px 24px rgba(0,0,0,0.1);
@@ -23,11 +25,7 @@ body{
   display: flex;
 justify-content: center;
   align-items: center;
-  background:
-    radial-gradient(1200px 700px at 10% 10%, rgba(124,92,255,0.28), transparent 55%),
-    radial-gradient(900px 600px at 90% 30%, rgba(0,212,255,0.18), transparent 55%),
-    radial-gradient(900px 700px at 50% 110%, rgba(124,92,255,0.14), transparent 60%),
-    var(--bg);
+  background:rgba(124,92,255,0.45);
 }
 
 .hero-subtitle-3{
