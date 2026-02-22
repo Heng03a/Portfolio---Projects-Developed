@@ -6,14 +6,15 @@
   justify-content: center;
   border-color: rgba(124,92,255,0.45);
   color:white;
-  background:rgba(214,92,255,0.45);
+  background:blue;
 }
 
 .todo-card {
+  display: flex;
   width: 100%;
   max-width: 900px;
   color:white;
-  background:rgba(214,92,255,0.45);
+  background:blue;
   border-color: rgba(124,92,255,0.45);
   border-radius: 18px;
   box-shadow: 0 8px 24px rgba(0,0,0,0.1);
@@ -25,7 +26,7 @@ body{
   display: flex;
 justify-content: center;
   align-items: center;
-  background:rgba(214,92,255,0.45);
+  background:blue;
 }
 
 .hero-subtitle-3{
