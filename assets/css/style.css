@@ -124,6 +124,12 @@ code{ font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liber
   font-size: 16px;
   margin: 0 0 18px;
 }
+.hero-title-3{
+  font-size: clamp(18px, 3.5vw, 44px);
+  line-height: 1.1;
+  margin: 12px 0 10px;
+}
+
 .accent{
   background: linear-gradient(135deg, var(--accent), var(--accent2));
   -webkit-background-clip: text;
