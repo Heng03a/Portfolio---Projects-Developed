@@ -20,12 +20,16 @@
 
 *{ box-sizing: border-box; }
 html, body{ height: 100%; }
+body{
+  display: flex;
+justify-content: center;
+  align-items: center;
+}
 
 .hero-subtitle-3{
   display: flex;
 justify-content: center;
   align-items: center;
-
 }
 
 .hero-title-3{
