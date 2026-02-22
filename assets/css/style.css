@@ -125,20 +125,20 @@ code{ font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liber
   margin: 0 0 18px;
 }
 .hero-subtitle-3{
-justify-content: center;
   display: flex;
+justify-content: center;
   align-items: center;
 
 }
 
 .hero-title-3{
-justify-content: center;
   display: flex;
+justify-content: center;
   align-items: center;
 }
 .p-3{
-justify-content: center;
   display: flex;
+justify-content: center;
   align-items: center;
 }
 
