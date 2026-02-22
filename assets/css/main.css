@@ -5,14 +5,16 @@
   color:white;
   display: flex;
   justify-content: center;
-  background: #f3f4f6;
+  background: white;
+  border-color: rgba(124,92,255,0.45);
 }
 
 .todo-card {
   width: 100%;
   max-width: 900px;
   color:white;
-  background: #f3f4f6;
+  background: white;
+  border-color: rgba(124,92,255,0.45);
   border-radius: 18px;
   box-shadow: 0 8px 24px rgba(0,0,0,0.1);
 }
