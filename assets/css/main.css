@@ -2,6 +2,7 @@
    PAGE LAYOUT
    ========================================= */
 .todo-wrapper {
+  color:white;
   display: flex;
   justify-content: center;
   background: #f3f4f6;
@@ -10,7 +11,8 @@
 .todo-card {
   width: 100%;
   max-width: 900px;
-  background: white;
+  color:white;
+  background: #f3f4f6;
   border-radius: 18px;
   box-shadow: 0 8px 24px rgba(0,0,0,0.1);
 }
