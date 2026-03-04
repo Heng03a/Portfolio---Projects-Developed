@@ -241,6 +241,10 @@ code{ font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liber
 .cards{
   grid-template-columns: 1fr;
 }
+
+.cols-1{
+  grid-template-columns: 1fr;
+}
 .cols-2{
   grid-template-columns: 1fr;
 }
