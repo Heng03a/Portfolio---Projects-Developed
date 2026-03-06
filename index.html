@@ -345,7 +345,6 @@
       </div>
     </section>
 
-
     <!-- Engineering Principles -->
     <section id="Engineering_Principles" class="section">
       <div class="container">
@@ -396,6 +395,180 @@
         </div>
       </div>
     </section>
+
+    <!-- Mobile-First_Responsive_Design -->
+    <section id="Mobile-First_Responsive_Design" class="section">
+      <div class="container">
+        <div class="section-head">
+          <h2>Mobile-First Responsive Design</h2>
+          <p>All user interfaces were designed using responsive layout strategies to ensure usability across a wide range of devices.</p>
+        </div>
+
+        <div class="grid cols-1">
+          <div class="mini-card">
+            <h3>Responsive design considerations Applied Across Projects</h3>
+            <p class="muted">
+              Responsive design considerations include: </br>
+              • Flexible layout containers</br>
+              • Media queries for breakpoint adaptation</br>
+              • Fluid scaling of UI elements</br>
+              • Layout validation across multiple viewport sizes</br>
+              </br>
+              The applications were validated across device categories:</br>
+              • Mobile devices (320px - 480px)</br>
+              • Tablet devices (768px - 1024px)</br>
+              • Desktop displays (1280px - 1440px)</br>
+            </p>
+          </div>
+          </div>
+          </br>
+          <div class="grid cols-1">
+          <div class="mini-card">
+            <h3>Cross-Browser Compatibility</h3>
+            <p class="muted">
+              Applications were verified across modern browsers to ensure consistent 
+              rendering and functionality.</br>
+              </br>
+              Browsers tested include:</br>
+              • Google Chrome</br>
+              • Microsoft Edge</br>
+              • Mozilla Firefox</br>
+              </br>
+              Testing scenarios included:</br>
+              • Authentication workflows</br>
+              • CRUD operations</br>
+              • Responsive layout behaviour</br>
+              • Form interaction and UI rendering</br>
+              This validation process helps prevent browser-specific issues commonly </br>
+              encountered in production environments.</br>
+            </p>
+            </br>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Distributed Cloud Architecture -->
+    <section id="Distributed Cloud Architecture" class="section">
+      <div class="container">
+        <div class="section-head">
+          <h2>Distributed Cloud Architecture</h2>
+          <p>Several projects demonstrate a distributed system architecture where frontend and 
+            backend services are hosted independently.</p>
+        </div>
+
+        <div class="grid cols-1">
+          <div class="mini-card">
+            <h3>Example architecture:</h3>
+            <p class="muted">
+             Frontend Application (Angular / Web UI) </br>
+                        │</br>
+                        │ REST API</br>
+                          ▼
+              Backend Service (Node.js / ASP.NET Core)
+                          │</br>
+                          ▼
+              Cloud Database (MongoDB / PostgreSQL)
+              </br>
+              This architecture reflects real-world deployment models </br>
+              used in modern cloud applications.</br>
+              Benefits include:</br>
+              • Independent service deployment</br>
+              • Horizontal scalability
+              • Separation of presentation and data layers
+              • Flexible cloud hosting strategies</br>
+            </p>
+          </div>
+          </div>
+          </br>
+      </div>
+    </section>
+
+    <!-- Reusable Prototype-Oriented Development -->
+    <section id="Reusable Prototype-Oriented Development" class="section">
+      <div class="container">
+        <div class="section-head">
+          <h2>Reusable Prototype-Oriented Development</h2>
+          <p>The project structures were intentionally designed to serve as reusable templates 
+             for rapid application prototyping.</p>
+        </div>
+
+        <div class="grid cols-1">
+          <div class="mini-card">
+            <h3>Reusable components include:</h3>
+            <p class="muted">
+             • Authentication mechanisms</br>
+             • Layered architecture templates</br>
+             • API service patterns</br>
+             • Responsive UI layout frameworks</br>
+             This enables rapid development of new applications while 
+             maintaining architectural consistency.
+            </p>
+          </div>
+          </div>
+          </br>
+      </div>
+    </section>
+
+
+    <!-- Engineering Challenges & Solutions -->
+    <section id="Engineering Challenges & Solutions" class="section">
+      <div class="container">
+        <div class="section-head">
+          <h2>Engineering Challenges & Solutions</h2>
+          <p>Engineering Challenges Addressed</br>
+            During development and deployment of the applications, several real-world engineering </br>
+            challenges were encountered and resolved.</br>
+            </br>
+            These challenges reflect common issues faced when building modern distributed web.</br>
+            </br>
+            Challenge 1 — Cross-Origin Resource Sharing (CORS) </br>
+            Problem</br>
+            </br>
+            When deploying the Angular frontend and Node.js backend on separate cloud platforms, </br>
+            browser security restrictions blocked API requests due to cross-origin policy enforcement.</br>
+            </br>
+            Example deployment:</br>
+            </br>
+            Frontend : Vercel</br>
+            Backend  : Railway</br>
+            </br>
+            Because the services were hosted on different domains, browsers prevented requests </br>
+            from reaching the backend API.</br>
+            </br>
+            Solution
+            </br>
+            Explicit CORS configuration was implemented in the backend server to allow trusted origins.</br>
+            </br>
+            Example configuration:</br>
+            </br>
+            app.use(cors({</br>
+            origin: [</br>
+            "https://your-vercel-app.vercel.app"</br>
+            ],</br>
+            credentials: true</br>
+            }));</br>
+            </br>
+          </p>
+        </div>
+
+        <div class="grid cols-1">
+          <div class="mini-card">
+            <h3>Reusable components include:</h3>
+            <p class="muted">
+             • Authentication mechanisms</br>
+             • Layered architecture templates</br>
+             • API service patterns</br>
+             • Responsive UI layout frameworks</br>
+             This enables rapid development of new applications while 
+             maintaining architectural consistency.
+            </p>
+          </div>
+          </div>
+          </br>
+      </div>
+    </section>
+
     <!-- Skills -->
     <section id="skills" class="section section-alt">
       <div class="container">
