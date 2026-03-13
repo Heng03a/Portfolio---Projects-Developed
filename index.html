@@ -376,6 +376,7 @@
       </div>
     </section>
 
+
     <!-- Engineering Principles -->
     <section id="Engineering_Principles" class="section">
       <div class="container">
@@ -590,42 +591,6 @@
     </section>
     
 
-    <!-- Distributed Cloud Architecture -->
-    <section id="Distributed Cloud Architecture" class="section">
-      <div class="container">
-        <div class="section-head">
-          <h2>Distributed Cloud Architecture</h2>
-          <p>Several projects demonstrate a distributed system architecture where frontend and 
-            backend services are hosted independently.</p>
-        </div>
-
-        <div class="grid cols-1">
-          <div class="mini-card">
-            <h3>Example architecture:</h3>
-            <p class="muted">
-             Frontend Application (Angular / Web UI) </br>
-                        │</br>
-                        │ REST API</br>
-                          ▼</br>
-              Backend Service (Node.js / ASP.NET Core)</br>
-                          │</br>
-                          ▼</br>
-              Cloud Database (MongoDB / PostgreSQL)</br>
-              </br>
-              This architecture reflects real-world deployment models </br>
-              used in modern cloud applications.</br>
-              Benefits include:</br>
-              • Independent service deployment</br>
-              • Horizontal scalability</br>
-              • Separation of presentation and data layers</br>
-              • Flexible cloud hosting strategies</br>
-            </p>
-          </div>
-          </div>
-          </br>
-      </div>
-    </section>
-
     <!-- Reusable Prototype-Oriented Development -->
     <section id="Reusable Prototype-Oriented Development" class="section">
       <div class="container">
@@ -761,163 +726,241 @@
         on smaller devices.
       </p>
 
-      <p><strong>Solution</strong></p>
-      <p>
-        Responsive design techniques were applied to ensure adaptive layouts
-        across desktop, tablet, and mobile devices.
-      </p>
+    <p><strong>Solution</strong></p>
+    <p>
+      Responsive design techniques were applied to ensure adaptive layouts
+      across desktop, tablet, and mobile devices.
+    </p>
 
-      <ul>
-        <li>Flexible layout containers</li>
-        <li>Media query breakpoints</li>
-        <li>Relative sizing units</li>
-        <li>Mobile-first layout testing</li>
-      </ul>
+    <ul>
+      <li>Flexible layout containers</li>
+      <li>Media query breakpoints</li>
+      <li>Relative sizing units</li>
+      <li>Mobile-first layout testing</li>
+    </ul>
 
-      <p>
-        Layout behaviour was validated across screen widths ranging from
-        320px to 1440px using browser developer tools and responsive testing.
-      </p>
+    <p>
+      Layout behaviour was validated across screen widths ranging from
+      320px to 1440px using browser developer tools and responsive testing.
+    </p>
 
-      <p><strong>Engineering Outcome</strong></p>
-      <p>
-        The interface remains fully functional and visually consistent across
-        multiple device categories and screen resolutions.
-      </p>
-    </div>
+    <p><strong>Engineering Outcome</strong></p>
+    <p>
+      The interface remains fully functional and visually consistent across
+      multiple device categories and screen resolutions.
+    </p>
   </div>
+</div>
 </section>
 
-    <!-- Architecture Diagrams for My 3 Showcase Projects -->
-    <section id="Architecture Diagrams for My 3 Showcase Projects" class="section">
+    <!-- Mobile-First_Responsive_Design -->
+    <section id="Mobile-First_Responsive_Design" class="section">
       <div class="container">
         <div class="section-head">
-          <h2>Technology Stack Diagram</h2>
-             <div class="grid cols-1">
+          <h2>Mobile-First Responsive Design</h2>
+          <p>All user interfaces were designed using responsive layout strategies to ensure usability across a wide range of devices.</p>
+        </div>
+
+        <div class="grid cols-1">
           <div class="mini-card">
+            <h3>Responsive Design Implementation Strategy</h3>
             <p class="muted">
-         Angular - HTTPS Requests</br>
-                 │ </br>
-                 ▼ CORS Enabled</br>
-              Node.js / Express REST API</br>
-              Express REST API</br>
-              MongoDB Atlas (Cloud Database)</br>
-              Vercel Frontend (Vercel)</br>
-              Railway (Backend Cloud) </br>
-              JWT</br>
-                </p>
-    </div>
-  </div>
-</section>
+              Responsive design considerations include: </br>
+              • Flexible layout containers</br>
+              • Media queries for breakpoint adaptation</br>
+              • Fluid scaling of UI elements</br>
+              • Layout validation across multiple viewport sizes</br>
+              • Relative units (%, rem)</br>
+              • Viewport testing using DevTools</br>
+              </br>
+              <b>Responsive Design Validation</b></br>
+              The applications were validated across device categories:</br>
+              • Mobile devices (320px - 480px)</br>
+              • Tablet devices (768px - 1024px)</br>
+              • Desktop displays (1280px - 1440px)</br>
+            </p>
+          </div>
+          </div>
+          </br>
+          <div class="grid cols-1">
+          <div class="mini-card">
+            <h3>Cross-Browser Compatibility</h3>
+            <p class="muted">
+              Applications were verified across modern browsers to ensure consistent 
+              rendering and functionality.</br>
+              </br>
+              Browsers tested include:</br>
+              • Google Chrome</br>
+              • Microsoft Edge</br>
+              • Mozilla Firefox</br>
+              </br>
+              Testing scenarios included:</br>
+              • Authentication workflows</br>
+              • CRUD operations</br>
+              • Responsive layout behaviour</br>
+              • Form interaction and UI rendering</br>
+              </br>
+              This validation process helps prevent browser-specific issues commonly </br>
+              encountered in production environments.</br>
+            </p>
+            </br>
+          </div>
+        </div>
+      </div>
+    </section>
 
-
-    <!--Distributed System Architecture -->
-    <section id="Distributed System Architecture" class="section">
+    <!-- Architecture_Overview -->
+    <section id="architecture_Overview" class="section">
       <div class="container">
         <div class="section-head">
-          <h2>Distributed System Architecture</h2>
-      <h3>High-Level Architecture Overview</h3>          
-             <div class="grid cols-1">
+          <h2>Architecture Notes</h2>
+          <p>How I structure apps for maintainability, security, and fast iteration.</p>
+        </div>
+
+        <div class="grid cols-2">
           <div class="mini-card">
+            <h3>Separation of Concerns</h3>
             <p class="muted">
-                User Browser</br>
-                      │</br>
-                      │ HTTPS Requests</br>
-                      ▼</br>
+              UI components stay thin; services handle orchestration; repositories isolate data access; configuration is
+              environment-driven for safe deployment.
+            </p>
+          </div>
+
+          <div class="mini-card">
+            <h3>Security & Integration Mindset</h3>
+            <p class="muted">
+              JWT-first auth patterns, CORS-aware FE/BE separation, and secure configuration practices suited for HR/Payroll domains.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
  
-             Angular Frontend (SPA) </br>
-                Vercel Cloud        </br>
-                                    </br>
-          • Authentication UI       </br>
-          • Task Management UI      </br>
-          • API Communication Layer </br>
-                       │</br>
-                       │ REST API Requests</br>
-                       │ (CORS Enabled)</br>
-                       ▼</br>
-              Node.js / Express     </br>
-                Railway Cloud      </br>
-                                    </br>
-          • API Endpoints         </br>
-          • JWT Authentication     </br>
-          • Business Logic          </br>
-          • CORS Configuration      </br>
-                       │</br>
-                       │ Database Queries</br>
-                       ▼</br>
-            MongoDB Atlas       </br>
-       Cloud Database       </br>
-                             </br>
-         • Todo Task Storage        </br>
-        • User Accounts            </br>
-        • Persistent Data Layer    </br>
-          </p>
-      <p>
-        </br>
+ 
+  <!--Distributed System Architecture -->
+  <section id="Distributed System Architecture" class="section">
+    <div class="container">
+      <div class="section-head">
+        <h2>Distributed System Architecture</h2>
+    <h3>High-Level Architecture Overview</h3>          
+            <div class="grid cols-1">
+        <div class="mini-card">
+          <p class="muted">
+              User Browser</br>
+                    │</br>
+                    │ HTTPS Requests</br>
+                    ▼</br>
+
+            Angular Frontend (SPA) / Web UI</br>
+              Vercel Cloud        </br>
+                                  </br>
+        • Authentication UI       </br>
+        • Task Management UI      </br>
+        • API Communication Layer </br>
+                      │</br>
+                      │ REST API Requests</br>
+                      │ (CORS Enabled)</br>
+                      ▼</br>
+            Node.js / Express (Backend Service)    </br>
+              Railway Cloud      </br>
+                                  </br>
+        • API Endpoints         </br>
+        • JWT Authentication     </br>
+        • Business Logic          </br>
+        • CORS Configuration      </br>
+                      │</br>
+                      │ Database Queries</br>
+                      ▼</br>
+          MongoDB Atlas       </br>
+      Cloud Database       </br>
+                            </br>
+        • Todo Task Storage        </br>
+      • User Accounts            </br>
+      • Persistent Data Layer    </br>
+<p></p>
+      - This architecture reflects real-world deployment models used in modern cloud applications.</br>
+      - Benefits include:</br>
+        • Independent service deployment</br>
+        • Horizontal scalability</br>
+        • Separation of presentation and data layers</br>
+        • Flexible cloud hosting strategies</br>
+     </p>
+    <p>
+      </br>
 <h3>Distributed Architecture Design</h3>
 
-     This application follows a distributed cloud architecture where the frontend, backend, and database are deployed as independent services.</br>
+    This application follows a distributed cloud architecture where the frontend, backend, and database are deployed as independent services.</br>
+    - How I structure apps for maintainability, security, and fast iteration.
+  <h3>Separation of Concerns</h3>
+      - UI components stay thin; services handle orchestration; repositories isolate data access; configuration is
+      - environment-driven for safe deployment.
+       - How I structure apps for maintainability, security, and fast iteration.
+        <h3>Separation of Concerns</h3>
+            - UI components stay thin; services handle orchestration; repositories isolate data access; configuration is
+            - environment-driven for safe deployment.
 </br>
-  <b>Frontend Layer</b></br>
+
+<b>Frontend Layer</b></br>
 </br>
-        The Angular single-page application is deployed on Vercel, providing fast global content delivery and static hosting.</br>
-        </br>
-        Responsibilities:</br>
+      The Angular single-page application is deployed on Vercel, providing fast global content delivery and static hosting.</br>
+      </br>
+      Responsibilities:</br>
 
-         • UI rendering</br>
+        • UI rendering</br>
 
-         • User interaction</br>
+        • User interaction</br>
 
-         • API communication</br>
+        • API communication</br>
 
-         • Authentication handling</br>
+        • Authentication handling</br>
 </br>
-   <b>Backend Layer</b></br>
+  <b>Backend Layer</b></br>
 </br>
-        The backend API is implemented using <b>Node.js and Express</b> and deployed on <b>Railway.</b></br>
+      The backend API is implemented using <b>Node.js and Express</b> and deployed on <b>Railway.</b></br>
 </br>
-        Responsibilities:</br>
+      Responsibilities:</br>
 
-       • REST API endpoints</br>
+      • REST API endpoints</br>
 
-       • Business logic processing</br>
+      • Business logic processing</br>
 
-       • JWT authentication</br>
+      • JWT authentication</br>
 
-       • Cross-Origin Resource Sharing (CORS) management</br>
+      • Cross-Origin Resource Sharing (CORS) management</br>
 </br>
-   <b>Data Layer</b></br>
+  <b>Data Layer</b></br>
 </br> 
-        Application data is stored in MongoDB Atlas, a managed cloud database service.</br>
+      Application data is stored in MongoDB Atlas, a managed cloud database service.</br>
 </br>
-        Responsibilities:</br>
+      Responsibilities:</br>
 
-        • Persistent task storage</br>
+      • Persistent task storage</br>
 
-        • User account data</br>
+      • User account data</br>
 
-        • Query performance and indexing  </br>
+      • Query performance and indexing  </br>
 </br>
-   <b>Security Considerations</b></br>
+  <b>Security Considerations - Security & Integration Mindset</b></br>
 </br>
-        Because the frontend and backend services are hosted on different domains, CORS </br>
-        configuration was implemented to allow secure communication between trusted origins.</br>
+   - Because the frontend and backend services are hosted on different domains,</br>
+   - CORS configuration was implemented to allow secure communication between trusted origins.</br>
 </br>
-        All requests are transmitted over HTTPS, ensuring encrypted communication between</br> 
-        system components.        </br>
-      </p>
-    </div>
+   - All requests are transmitted over HTTPS, ensuring encrypted communication between system components.        </br>
+   - JWT-first auth patterns, CORS-aware FE/BE separation, and secure configuration practices suited for Enterprise system
+   - and HR/Payroll domains 
+    </p>
   </div>
+</div>
 </section>
-    
 
     <!-- Architecture Diagrams for My 3 Showcase Projects -->
-    <section id="Architecture Diagrams for My 3 Showcase Projects" class="section">
-      <div class="container">
+  <section id="Architecture Diagrams for My 3 Showcase Projects" class="section">
+    <div class="container">
         <div class="section-head">
           <h2>🏗 Architecture Diagrams for Your 3 Showcase Projects</h2>
           <p>
-            These diagrams should be placed under each project section in the portfolio.
+            <h2>Technology Stack Diagram</h2>
           </p>
           <h2>1️⃣ Angular Todo Application</h2>
           <h3>Architecture Overview</h3>
@@ -950,7 +993,10 @@
               • Angular SPA</br>
               • Component-based UI architecture</br>
               • HTTP service integration</br>
-              Backend</br>
+              * JWT-based stateless authentication
+              * CORS Enabled
+              * Deployed on Vercel Cloud
+              Backend - Railway (Backend Cloud)</br>
               • Node.js Express REST API</br>
               • Authentication and task management logic</br>
               Database</br>
@@ -1047,90 +1093,6 @@
       </div>
     </section>
 
-    <!-- Mobile-First_Responsive_Design -->
-    <section id="Mobile-First_Responsive_Design" class="section">
-      <div class="container">
-        <div class="section-head">
-          <h2>Mobile-First Responsive Design</h2>
-          <p>All user interfaces were designed using responsive layout strategies to ensure usability across a wide range of devices.</p>
-        </div>
-
-        <div class="grid cols-1">
-          <div class="mini-card">
-            <h3>Responsive Implementation Strategy</h3>
-            <p class="muted">
-              Responsive design considerations include: </br>
-              • Flexible layout containers</br>
-              • Media queries for breakpoint adaptation</br>
-              • Fluid scaling of UI elements</br>
-              • Layout validation across multiple viewport sizes</br>
-              • Relative units (%, rem)</br>
-              • Viewport testing using DevTools</br>
-              </br>
-              <b>Responsive Design Validation</b></br>
-              The applications were validated across device categories:</br>
-              • Mobile devices (320px - 480px)</br>
-              • Tablet devices (768px - 1024px)</br>
-              • Desktop displays (1280px - 1440px)</br>
-            </p>
-          </div>
-          </div>
-          </br>
-          <div class="grid cols-1">
-          <div class="mini-card">
-            <h3>Cross-Browser Compatibility</h3>
-            <p class="muted">
-              Applications were verified across modern browsers to ensure consistent 
-              rendering and functionality.</br>
-              </br>
-              Browsers tested include:</br>
-              • Google Chrome</br>
-              • Microsoft Edge</br>
-              • Mozilla Firefox</br>
-              </br>
-              Testing scenarios included:</br>
-              • Authentication workflows</br>
-              • CRUD operations</br>
-              • Responsive layout behaviour</br>
-              • Form interaction and UI rendering</br>
-              </br>
-              This validation process helps prevent browser-specific issues commonly </br>
-              encountered in production environments.</br>
-            </p>
-            </br>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    
-    <!-- Architecture_Overview -->
-    <section id="architecture_Overview" class="section">
-      <div class="container">
-        <div class="section-head">
-          <h2>Architecture Notes</h2>
-          <p>How I structure apps for maintainability, security, and fast iteration.</p>
-        </div>
-
-        <div class="grid cols-2">
-          <div class="mini-card">
-            <h3>Separation of Concerns</h3>
-            <p class="muted">
-              UI components stay thin; services handle orchestration; repositories isolate data access; configuration is
-              environment-driven for safe deployment.
-            </p>
-          </div>
-
-          <div class="mini-card">
-            <h3>Security & Integration Mindset</h3>
-            <p class="muted">
-              JWT-first auth patterns, CORS-aware FE/BE separation, and secure configuration practices suited for HR/Payroll domains.
-            </p>
-          </div>
-        </div>
-      </div>
-    </section>
-
 
     <!-- Skills -->
     <section id="skills" class="section section-alt">
@@ -1208,6 +1170,7 @@
         </footer>
       </div>
     </section>
+
   </main>
 
   <script>
