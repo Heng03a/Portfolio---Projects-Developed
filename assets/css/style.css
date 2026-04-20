@@ -95,7 +95,7 @@ code{ font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liber
 .btn-primary{
   border-color: rgba(124,92,255,0.45);
   background: linear-gradient(135deg, rgba(124,92,255,0.95), rgba(0,212,255,0.75));
-  color: #0b1220;
+  color: white;
 }
 .btn-ghost{
   color: var(--text);
