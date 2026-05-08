@@ -1,0 +1,160 @@
+```html id="84vz6s"
+<section class="project-narrative">
+
+  <h1>Full-Stack Microservices Todo Platform</h1>
+
+  <p>
+    This project is a containerized full-stack microservices platform built using Angular,
+    Node.js, Express, Docker Compose, and AWS DynamoDB Local.
+  </p>
+
+  <p>
+    The system was designed to simulate modern distributed application architecture principles
+    commonly used in cloud-native enterprise environments, including service separation,
+    container orchestration, RESTful communication, and infrastructure isolation.
+  </p>
+
+  <h2>Project Objectives</h2>
+
+  <p>
+    The goal of this project was to move beyond a traditional CRUD application by implementing
+    a more realistic multi-service architecture involving:
+  </p>
+
+  <ul>
+    <li>Frontend and backend service separation</li>
+    <li>Containerized backend infrastructure</li>
+    <li>NoSQL database integration using DynamoDB</li>
+    <li>Docker Compose orchestration</li>
+    <li>JWT-based authentication flow</li>
+    <li>Monorepo project structure</li>
+    <li>Environment-based configuration management</li>
+  </ul>
+
+  <h2>Frontend Architecture</h2>
+
+  <p>
+    The frontend application was developed using Angular as a Single Page Application (SPA)
+    architecture.
+  </p>
+
+  <p>
+    Angular services were used to communicate with backend REST APIs through structured HTTP requests,
+    while route guards and JWT token interception were implemented to secure protected application routes.
+  </p>
+
+  <p>
+    The frontend also includes:
+  </p>
+
+  <ul>
+    <li>Responsive UI design</li>
+    <li>Task management workflow</li>
+    <li>Authentication screens</li>
+    <li>Protected navigation routes</li>
+    <li>Service-based API integration</li>
+    <li>Cross-browser compatible layouts</li>
+  </ul>
+
+  <h2>Backend Architecture</h2>
+
+  <p>
+    The backend service was built using Node.js and Express.js following RESTful API design principles.
+  </p>
+
+  <p>
+    The backend exposes APIs for:
+  </p>
+
+  <ul>
+    <li>User authentication</li>
+    <li>Todo item creation</li>
+    <li>Todo retrieval</li>
+    <li>Task updates</li>
+    <li>Task deletion</li>
+  </ul>
+
+  <p>
+    JWT authentication was implemented to secure protected API endpoints and validate authenticated requests.
+  </p>
+
+  <h2>DynamoDB Integration</h2>
+
+  <p>
+    Instead of using a traditional relational database, this project integrates AWS DynamoDB Local
+    using AWS SDK v3 to demonstrate NoSQL database architecture concepts.
+  </p>
+
+  <p>
+    DynamoDB runs as an isolated Docker container and communicates internally with the backend service
+    through Docker networking.
+  </p>
+
+  <p>
+    The backend includes retry logic and automated table initialization to handle service startup timing
+    dependencies during container orchestration.
+  </p>
+
+  <h2>Docker & Infrastructure Orchestration</h2>
+
+  <p>
+    One of the key engineering focuses of this project was infrastructure orchestration using Docker Compose.
+  </p>
+
+  <p>
+    The system was restructured into a monorepo architecture with centralized infrastructure management,
+    allowing Docker Compose to orchestrate:
+  </p>
+
+  <ul>
+    <li>Backend API container</li>
+    <li>DynamoDB Local container</li>
+    <li>Persistent Docker volume storage</li>
+    <li>Internal container networking</li>
+    <li>Environment variable configuration</li>
+  </ul>
+
+  <p>
+    This setup simulates production-style infrastructure coordination and demonstrates understanding of
+    service isolation and container lifecycle management.
+  </p>
+
+  <h2>Engineering Challenges</h2>
+
+  <p>
+    Several engineering challenges were encountered and resolved during the development process:
+  </p>
+
+  <ul>
+    <li>Resolving Docker container naming conflicts during orchestration restructuring</li>
+    <li>Converting frontend Git submodule architecture into a proper monorepo structure</li>
+    <li>Implementing retry logic for delayed DynamoDB container readiness</li>
+    <li>Managing Docker persistent volumes for database storage</li>
+    <li>Configuring environment-based infrastructure variables</li>
+    <li>Handling frontend/backend distributed communication architecture</li>
+  </ul>
+
+  <h2>Project Outcomes</h2>
+
+  <p>
+    This project demonstrates practical experience in:
+  </p>
+
+  <ul>
+    <li>Distributed system architecture</li>
+    <li>Microservices-oriented project structuring</li>
+    <li>Containerized backend infrastructure</li>
+    <li>Docker Compose orchestration</li>
+    <li>NoSQL database integration</li>
+    <li>RESTful API engineering</li>
+    <li>JWT authentication workflows</li>
+    <li>Cloud-ready system design concepts</li>
+  </ul>
+
+  <p>
+    The project also reflects a progression from traditional frontend/backend CRUD applications
+    toward more infrastructure-aware and cloud-oriented full-stack engineering practices.
+  </p>
+
+</section>
+```
