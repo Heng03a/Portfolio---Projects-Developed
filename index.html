@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta
     name="description"
-    content="Jialumen (Phua Kia Heng) — Full-Stack Web Application Developer portfolio featuring Angular, Node.js, .NET, cloud deployment, authentication, clean architecture, and responsive UI engineering."
+    content="Jialumen (Phua Kia Heng) — Full-Stack Web Application Developer portfolio featuring Angular, Node.js, .NET, AWS S3, API Gateway, Lambda, DynamoDB, Docker, authentication, clean architecture, and responsive UI engineering."
   />
   <title>Jialumen | Full-Stack Web Application Developer</title>
 
@@ -43,17 +43,18 @@
         <p class="pill">Phua Kia Heng (Jialumen) • Full-Stack Web Application Developer • Singapore</p>
 
         <h1 class="hero-title">
-          Building secure full-stack web applications with cloud-native backend architecture
+          Building secure full-stack web applications with AWS serverless and cloud-native architecture
         </h1>
 
         <p class="hero-subtitle">
           I design and build production-oriented web applications using Angular, Node.js, .NET,
-          AWS serverless services, REST APIs, secure authentication, and responsive frontend architecture.
+          AWS S3, API Gateway, Lambda, DynamoDB, REST APIs, secure authentication,
+          and responsive frontend architecture.
         </p>
 
         <p class="hero-subtitle">
           7+ years in enterprise web application development across HR, payroll, government API integration,
-          full-stack systems, cloud deployment, and frontend modernization.
+          full-stack systems, cloud deployment, responsive UI/UX project work, and frontend modernization.
         </p>
 
         <div class="hero-cta">
@@ -64,15 +65,15 @@
         <div class="hero-meta">
           <div class="meta-card">
             <div class="meta-label">Core Stack</div>
-            <div class="meta-value">Angular • Node.js • .NET • AWS Lambda • API Gateway • DynamoDB • PostgreSQL • MongoDB</div>
+            <div class="meta-value">Angular • Node.js • .NET • AWS S3 • Lambda • API Gateway • DynamoDB • Docker • PostgreSQL • MongoDB</div>
           </div>
           <div class="meta-card">
             <div class="meta-label">Engineering Focus</div>
-            <div class="meta-value">Full-Stack Architecture • Serverless APIs • Security • Cloud Deployment • Responsive UI</div>
+            <div class="meta-value">Full-Stack Architecture • Serverless APIs • API Gateway Routing • Security • Cloud Deployment • Responsive UI</div>
           </div>
           <div class="meta-card">
             <div class="meta-label">Strength</div>
-            <div class="meta-value">Enterprise Web Experience with Modern Cloud-Native Delivery</div>
+            <div class="meta-value">Enterprise Web Experience with Practical AWS Serverless Delivery</div>
           </div>
         </div>
       </div>
@@ -82,7 +83,7 @@
           <h2 class="panel-title">Professional Highlights</h2>
           <ul class="checklist">
             <li>Built and deployed full-stack applications using Angular, Node.js, .NET, and cloud services</li>
-            <li>Implemented AWS API Gateway, Lambda, and DynamoDB serverless backend architecture</li>
+            <li>Implemented AWS S3 frontend hosting, API Gateway routing, Lambda functions, and DynamoDB serverless backend architecture</li>
             <li>Implemented JWT authentication, route protection, and CORS-aware API integration</li>
             <li>Applied layered architecture and separation of concerns in .NET MVC projects</li>
             <li>Delivered responsive UI validated across desktop, tablet, mobile, and major browsers</li>
@@ -137,8 +138,8 @@
       <div class="mini-card">
         <h3>Cloud Deployment Experience</h3>
         <p class="muted">
-          Deploy distributed applications across platforms such as Vercel, Railway,
-          MongoDB Atlas, and Neon with practical understanding of real-world constraints.
+          Deploy distributed applications across AWS S3, API Gateway, Lambda, DynamoDB,
+          Vercel, Railway, MongoDB Atlas, and Neon with practical understanding of real-world constraints.
         </p>
       </div>
 
@@ -161,21 +162,21 @@
             <!-- Project 1 -->
           <article class="card">
             <div class="card-top">
-              <div class="tag">Angular • Node.js • AWS Lambda • API Gateway • DynamoDB • Docker • Serverless Architecture</div>
+              <div class="tag">Angular • AWS S3 • API Gateway • Lambda • DynamoDB • Docker • Serverless Architecture</div>
 
               <h3>Cloud-Native Serverless Todo System</h3>
 
               <p class="muted">
-                Distributed full-stack cloud-native application built using Angular, Node.js,
-                AWS API Gateway, AWS Lambda, DynamoDB, Docker, and RESTful microservices architecture principles,
+                Distributed full-stack cloud-native application built using Angular, AWS S3 static hosting,
+                API Gateway routing, AWS Lambda, DynamoDB, Docker, and RESTful microservices architecture principles,
                 demonstrating serverless backend engineering, event-driven computing,
                 distributed frontend/backend communication, and scalable cloud infrastructure design.
               </p>
 
               <div>
                 <b>Key Engineering Highlights:</b><br />
-                • Angular SPA with modular frontend architecture and REST API integration<br />
-                • AWS API Gateway implementation for distributed API routing and HTTPS endpoint exposure<br />
+                • Angular SPA deployed as a static frontend using AWS S3 hosting<br />
+                • AWS API Gateway routing for GET, POST, PUT, DELETE REST endpoints and HTTPS exposure<br />
                 • AWS Lambda serverless CRUD functions using event-driven architecture<br />
                 • Amazon DynamoDB cloud-native NoSQL database integration using AWS SDK v3<br />
                 • Stateless backend service design using serverless computing principles<br />
@@ -188,10 +189,10 @@
                 <br /><br />
 
                 <b>Architecture Summary:</b><br />
-                Angular frontend communicates with AWS API Gateway through RESTful APIs,
-                where API Gateway routes requests into event-driven AWS Lambda functions connected to Amazon DynamoDB
-                for cloud-native serverless persistence. The project also includes a Dockerized local backend
-                environment supporting distributed development and infrastructure orchestration.
+                Angular frontend is hosted through AWS S3 static website hosting and communicates with AWS API Gateway
+                through RESTful APIs. API Gateway routes requests into event-driven AWS Lambda functions connected
+                to Amazon DynamoDB for cloud-native serverless persistence. The project also includes a Dockerized
+                local backend environment supporting distributed development and infrastructure orchestration.
                 <br /><br />
 
                 <b>Serverless REST APIs Implemented:</b><br />
@@ -215,6 +216,7 @@
                 <b>Project Outcomes:</b><br />
                 • Demonstrates practical implementation of cloud-native distributed architecture<br />
                 • Implements scalable serverless REST APIs using AWS managed services<br />
+                • Demonstrates AWS S3 static frontend hosting integrated with API Gateway backend services<br />
                 • Validates API Gateway and Lambda integration architecture<br />
                 • Demonstrates real-world DynamoDB CRUD operations using AWS SDK v3<br />
                 • Implements hybrid local + cloud backend engineering workflows<br />
@@ -226,6 +228,9 @@
               <a class="btn btn-primary btn-sm" href="projects/microservices-todo-system.html" target="_blank" rel="noopener noreferrer">
                 Narrative
               </a>
+              <a class="btn btn-ghost btn-sm" href="http://microservices-todo-frontend-phua-kia-heng.s3-website-us-east-1.amazonaws.com/#/login/" target="_blank" rel="noopener noreferrer">
+                🚀 Live Demo
+              </a>
 
               <a class="btn btn-ghost btn-sm" href="https://github.com/Heng03a/microservices-todo-system#README.md" target="_blank" rel="noopener noreferrer">
                 GitHub Repo
@@ -234,7 +239,7 @@
 
             <div class="card-foot">
               <span class="foot-item">
-                AWS Lambda • API Gateway • DynamoDB • Serverless • Docker • REST APIs • JWT
+                AWS S3 • Lambda • API Gateway • DynamoDB • Serverless • Docker • REST APIs • JWT
               </span>
             </div>
           </article>
@@ -515,9 +520,9 @@
           <div class="mini-card">
             <h3>Database / DevOps</h3>
             <ul class="bullets">
-              <li>MongoDB Atlas / PostgreSQL</li>
-              <li>Git / GitHub</li>
-              <li>Vercel / Railway / Cloud Deployment</li>
+              <li>DynamoDB / MongoDB Atlas / PostgreSQL</li>
+              <li>Git / GitHub / Docker</li>
+              <li>AWS S3 / API Gateway / Lambda / Cloud Deployment</li>
             </ul>
           </div>
         </div>
@@ -551,8 +556,8 @@
             <h3>Professional Summary</h3>
             <p class="muted">
               Jialumen (Pan Jia Xing) is a Full-Stack Web Application Developer focused on responsive,
-              secure, and maintainable web applications using Angular, Node.js, .NET, cloud hosting,
-              and structured application architecture.
+              secure, and maintainable web applications using Angular, Node.js, .NET, AWS serverless services,
+              cloud hosting, and structured application architecture.
             </p>
           </div>
         </div>
